@@ -1,0 +1,24 @@
+{
+	"keywords" : [
+		"phalcon-validate"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"PhalconValidate\\" : "src"
+		}
+	},
+	"name" : "phalcon-framwork/validate",
+	"type" : "phalcon-validate",
+	"description" : "phalcon validate for phalcon-framwork",
+	"license" : "Apache-2.0",
+	"authors": [
+	    {
+	      	"name": "zhaoyang",
+	      	"email": "1134856531@qq.com",
+	      	"homepage": "https://github.com/zhaoyang1214"
+	    }
+	],
+	"require" : {
+		"php" : ">=7.0"
+	}
+}
