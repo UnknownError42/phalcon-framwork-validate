@@ -88,6 +88,10 @@ class Validate extends Validation
         // Checks if a value has a url format
         'url' => [
             'validator' => \Phalcon\Validation\Validator\Url::class
+        ],
+        // 验证18位身份证号
+        'idcard' => [
+            'validator' => \PhalconValidators\IDCard::class
         ]
     ];
 
@@ -240,6 +244,7 @@ class Validate extends Validation
                 case 'email':
                 case 'numericality':
                 case 'url':
+                case 'idcard':
                     break;
                 case 'confirmation':
                     $options['with'] = $rule[3];
